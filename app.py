@@ -4,11 +4,11 @@ import pandas as pd
 # import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
 # from io import StringIO
 import base64
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from huggingface_hub import login
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
 
 
 st.set_page_config(
